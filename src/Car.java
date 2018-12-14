@@ -3,12 +3,12 @@ public class Car {
     private final static int NB_ROUES = 4;
     private int NChassis;
     private String Nimma;
-    private String color = "red";
+    private String Color = "red";
 
     public Car(int NChassis, String nimma, String color) {
         this.NChassis = NChassis;
         Nimma = nimma;
-        this.color = color;
+        this.Color = color;
     }
 
     public Car(int NChassis, String nimma) {
@@ -21,11 +21,11 @@ public class Car {
     }
 
     public String getColor() {
-        return color;
+        return Color;
     }
 
     public void setColor(String color) {
-        this.color = color;
+        this.Color = color;
     }
 
     public int getNChassis() {
